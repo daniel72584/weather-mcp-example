@@ -5,7 +5,7 @@ import { z } from "zod";
 const NWS_API_BASE = "https://api.weather.gov";
 const USER_AGENT = "weather-app/1.0";
 const URL_EXCHANGE = "https://data.fixer.io/api/latest"
-const API_KEY = '4d866050a9361a833dacb12554c901a4'
+const API_KEY = 'xxxxxxxxx'
 
 async function makeExchangeRequest<T>(url: string): Promise<T | null> {
 try {
